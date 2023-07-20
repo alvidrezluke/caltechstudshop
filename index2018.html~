@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta name="author" content="Jason Kephart">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Welcome to the Caltech Student Shop</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<table>
+  <tbody>
+    <tr>
+      <td class="title" width="125" height="125"><img src="logo.gif"></td>
+      <td class="title" width="675"><font face = "Arial Black" size = "12">Caltech Student Shop</font></td>
+    </tr>
+    <tr>
+      <td><br>
+<!--#include virtual="nav.stm" -->
+      </td>
+      <td>
+      <p>The Student Shop is a community-run shop located on the
+Caltech Campus.
+We offer a variety of wood- and metalworking equipment. Membership is
+very
+inexpensive, on a per-quarter basis. </p>
+      <p>Members: Please continue to report incidents such as any kind
+of mess that has not
+been cleaned up, broken tools, worn blades, or unsafe behavior as
+soon as possible. This helps the committee keep the shop useful, clean,
+and
+safe for members. Incidents of irresponsible behavior will be recorded
+as an example of what not to do. This log of incidents will be
+posted under the Rules and Safety section of this site.</p>
+<!--Do not delete contact email!-->
+      <p>If you have searched through the website, and it has not
+answered
+a question you have, please contact us at <b>studshop@caltech.edu</b> .</p>
+      </td>
+    </tr>
+    <tr>
+      <td><br>
+      </td>
+      <td class="bottom"><br>
+Site last updated February 25, 2018.<br>
+      <img
+ src="http://www.its.caltech.edu/cgi-bin/Count.cgi?df=studshop.dat&amp;dd=B&amp;frgb=255;255;255">
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
