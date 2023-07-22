@@ -1,52 +1,64 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
-<meta name="author" content="Jason Kephart">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Member Contact Form - Caltech Student Shop</title>
-<link rel="stylesheet" type="text/css" href="../style.css">
-</head>
-<body>
-<table>
-<tr>
-<td width="125" height="125" class="title"><img src="../logo.gif"></td>
-<td width="675" class="title">Contact Form</td>
-<tr><td>
-<br>
-<!--#include virtual="../nav.stm" -->
-</td><td>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Caltech Student Shop</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header id="header">
+            <a href="/">
+                <div id="logo-wrapper">
+                    <img src="../logo.gif" id="logo-img" />
+                </div>
+                <h1>Caltech Student Shop<h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/managers">Managers</a></li>
+                    <li><a href="/tools">Tools</a></li>
+                    <li><a href="/safety">Safety</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                    <li><a id="current-nav" href="/join">Join</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
 <p>Please note: All fields are required, except for comments and the UID field if you are from JPL.
 <form action="http://www.its.caltech.edu/cgi-bin/metafeedback">
 <input type="hidden" name="to" value="studshop@caltech.edu">
 <input type="hidden" name="subject" value="Student Shop Member Contact Form">
-<input type="hidden" name="nextURL" value="/~studshop/join/thanks.html">
+<input type="hidden" name="nextURL" value="/join/thanks.html">
 <input type="hidden" name="printName">
 <input type="hidden" name="printEmail">
-<p>Your Name: <input type="text" name="!name">
-<p>Email: <input type="text" name="!from">
-<p>Alternate Contact (phone, second email, etc.): <input type="text" name="Other_Contact">
-<p>UID (Caltech only): <input type="text" name="UID">
-<p>Affiliation: <br>
-<input type="radio" name="!Affiliation" value="CIT Undergraduate" checked>Caltech Undergraduate<br>
-<input type="radio" name="!Affiliation" value="CIT Graduate Student">Caltech Graduate Student<br>
-<input type="radio" name="!Affiliation" value="CIT Faculty">Caltech Faculty<br>
-<input type="radio" name="!Affiliation" value="CIT Alumnus">Caltech Alumnus<br>
-<input type="radio" name="!Affiliation" value="CIT Staff">Caltech Staff<br>
-<input type="radio" name="!Affiliation" value="JPL Staff">JPL Staff<br>
-<p>Mailing Address:<br>
-<textarea name="Mail" rows="5" cols="50"></textarea>
-<p>Do you want a magnetic strip card? Only answer "Yes" if you do not have a 
-Caltech ID, such as if you are a JPL Staff and possibly an alumnus. You will need this card to gain
-access to the shop. You will be charged $3.00, and if you are paying by check this
-should be added to whatever fees you are paying.<br>
-<input type="radio" name="!Needs_Card" value="NO" checked>No<br>
-<input type="radio" name="!Needs_Card" value="YES">Yes
-<p>Comments:<br>
-<textarea name="comments" rows="5" cols="50"></textarea>
+<p>Your Name: <input type="text" name="!name"></p>
+<p>Email: <input type="text" name="!from"></p>
+<p><label for="Other_Contact">Alternate Contact (phone, second email, etc.): </label><input type="text" name="Other_Contact"></p>
+                <p><label for="UID">UID (Caltech only): </label><input type="text" name="UID" /></p>
+                <p>Affiliation:</p>
+                <input type="radio" name="!Affiliation" value="CIT Undergraduate" checked>Caltech Undergraduate<br>
+                <input type="radio" name="!Affiliation" value="CIT Graduate Student">Caltech Graduate Student<br>
+                <input type="radio" name="!Affiliation" value="CIT Faculty">Caltech Faculty<br>
+                <input type="radio" name="!Affiliation" value="CIT Alumnus">Caltech Alumnus<br>
+                <input type="radio" name="!Affiliation" value="CIT Staff">Caltech Staff<br>
+                <input type="radio" name="!Affiliation" value="JPL Staff">JPL Staff<br>
+                <p>Mailing Address:<p>
+                <textarea name="Mail" rows="5" cols="50"></textarea>
+                <p>Do you want a magnetic strip card? Only answer "Yes" if you do not have a Caltech ID, such as if you are a JPL Staff and possibly an alumnus. You will need this card to gain access to the shop. You will be charged $3.00, and if you are paying by check this should be added to whatever fees you are paying.<br>
+                <input type="radio" name="!Needs_Card" value="NO" checked>No<br>
+                <input type="radio" name="!Needs_Card" value="YES">Yes
+                <p>Comments:</p>
+                <textarea name="comments" rows="5" cols="50"></textarea>
 
-<p><input type="Submit" value="Submit">
-</form>
-</td></tr>
-</table>
-</body>
+                <div><input type="Submit" value="Submit"></div>
+            </form>
+        </main>
+        <footer>
+            Website created by Luke Alvidrez. Currently under development. Last updated 7/20/2023.
+        </footer>
+    </body>
 </html>
